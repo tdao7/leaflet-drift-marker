@@ -7,7 +7,7 @@
   "types": "lib",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/hugobarragon/leaflet-drift-marker.git"
+    "url": "git+https://github.com/tdao7/leaflet-drift-marker.git"
   },
   "keywords": [
     "leaflet",
@@ -22,13 +22,13 @@
     "drift marker",
     "drift-marker"
   ],
-  "author": "Hugo Barragon (http://github.com/hugobarragon)",
+  "author": "Tdao7 (https://github.com/tdao7)",
   "contributors": [],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/hugobarragon/leaflet-drift-marker/issues"
+    "url": "https://github.com/tdao7/leaflet-drift-marker/issues"
   },
-  "homepage": "https://github.com/hugobarragon/leaflet-drift-marker#readme",
+  "homepage": "https://github.com/tdao7/leaflet-drift-marker#readme",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "tsc -p ."
