@@ -3,10 +3,10 @@ if (typeof window.exports != "object") {
   window.exports = {};
 }
 
-import { Marker as LeafletMarker, LatLngExpression } from "leaflet";
+import {Marker as LeafletMarker, LatLngExpression, MarkerOptions} from "leaflet";
 
 // constructor type
-type ConstMarker = new (...args: any[]) => LeafletMarker;
+type ConstMarker = new (options?: MarkerOptions, ...args: any[]) => LeafletMarker;
 
 // needed leaflet type
 type LeafletType = {
