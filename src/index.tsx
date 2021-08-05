@@ -37,6 +37,14 @@ class DriftMarker extends Leaflet_module.Marker {
   private _slideKeepAtCenter = false;
   private _slideDraggingWasAllowed = false;
   private _slideFrame = 0;
+  private _id: string = "";
+
+  setId = (id: string) => {
+    this._id = id;
+  };
+  getId = () => {
+    return this._id;
+  };
 
   addInitHook = () => {
     this.on("move", this.slideCancel, this);
