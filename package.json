@@ -42,5 +42,8 @@
   "peerDependencies": {
     "leaflet": ">=1.2.0"
   },
-  "dependencies": {}
+  "directories": {
+    "doc": "docs",
+    "lib": "lib"
+  }
 }
