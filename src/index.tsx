@@ -6,7 +6,8 @@ if (typeof window.exports != "object") {
 import {Marker as LeafletMarker, LatLngExpression, MarkerOptions} from "leaflet";
 
 // constructor type
-type ConstMarker = new (options?: MarkerOptions, ...args: any[]) => LeafletMarker;
+// type ConstMarker = new (...args: any[]) => LeafletMarker;
+type ConstMarker = new (latlng: LatLngExpression, options?: MarkerOptions) => LeafletMarker;
 
 // needed leaflet type
 type LeafletType = {
